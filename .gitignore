@@ -1,0 +1,9 @@
+build/
+*.user
+*.user.*
+.DS_Store
+.qtcreator/
+*.bak
+*.vorher
+05_Formen/Formen_Lib_Version/lib/
+05_Formen/Formen_Lib_Version/Loesung_zum_Nachschauen/lib/

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Übungsdatei für den XML-Reader (QTreeWidget + TinyXML2) -->
+<schule name="HTL Eisenstadt" typ="Höhere Technische Lehranstalt">
+    <adresse plz="7000" ort="Eisenstadt">
+        <strasse>Bad Kissingen-Platz 3</strasse>
+    </adresse>
+    <abteilung kuerzel="HIF" name="Informatik">
+        <klasse name="5BHIF" raum="E12" jahrgang="5">
+            <vorstand>Mag. Huber</vorstand>
+            <schueler id="1" geschlecht="m">
+                <vorname>Justin</vorname>
+                <nachname>Leibl</nachname>
+                <noten>
+                    <fach name="POS" stunden="4">1</fach>
+                    <fach name="DBI" stunden="3">2</fach>
+                    <fach name="Mathematik" stunden="3">2</fach>
+                </noten>
+            </schueler>
+            <schueler id="2" geschlecht="w">
+                <vorname>Anna</vorname>
+                <nachname>Müller</nachname>
+                <noten>
+                    <fach name="POS" stunden="4">2</fach>
+                    <fach name="DBI" stunden="3">1</fach>
+                </noten>
+            </schueler>
+        </klasse>
+        <klasse name="4AHIF" raum="E08" jahrgang="4">
+            <vorstand>DI Gruber</vorstand>
+            <schueler id="3" geschlecht="m">
+                <vorname>Lukas</vorname>
+                <nachname>Bauer</nachname>
+                <noten/>
+            </schueler>
+        </klasse>
+    </abteilung>
+    <abteilung kuerzel="HEL" name="Elektronik &amp; Technische Informatik">
+        <klasse name="3AHEL" raum="O21" jahrgang="3">
+            <vorstand>Ing. Weber</vorstand>
+        </klasse>
+    </abteilung>
+    <werkstatt offen="ja"/>
+</schule>

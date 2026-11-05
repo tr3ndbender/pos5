@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliothek name="HTL Bibliothek" ort="Eisenstadt">
+    <buch id="1" sprache="de">
+        <titel>Programmieren mit Qt</titel>
+        <autor>Max Mustermann</autor>
+        <preis waehrung="EUR">29.90</preis>
+        <kapitel nr="1">Einfuehrung</kapitel>
+        <kapitel nr="2">Signals und Slots</kapitel>
+        <kapitel nr="3">Layouts</kapitel>
+    </buch>
+    <buch id="2" sprache="en">
+        <titel>C++ Basics</titel>
+        <autor>Erika Musterfrau</autor>
+        <preis waehrung="EUR">34.50</preis>
+        <kapitel nr="1">Pointers</kapitel>
+        <kapitel nr="2">Inheritance</kapitel>
+    </buch>
+    <zeitschrift id="3">
+        <titel>c't</titel>
+        <ausgabe nr="21" jahr="2026"/>
+    </zeitschrift>
+</bibliothek>
